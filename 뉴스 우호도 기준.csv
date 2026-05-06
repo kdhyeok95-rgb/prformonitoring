@@ -1,0 +1,149 @@
+﻿pattern,weight,tag,notes
+사망,-5.0,NEG_OVERRIDE,치명사고
+사망사고,-5.0,NEG_OVERRIDE,치명사고
+중대재해,-5.0,NEG_OVERRIDE,법·안전 중대사고
+참사,-5.0,NEG_OVERRIDE,치명사고
+폭발,-4.0,NEG_OVERRIDE,치명사고
+대폭발,-5.0,NEG_OVERRIDE,치명사고
+화재,-4.0,NEG_OVERRIDE,화재사고
+대형화재,-5.0,NEG_OVERRIDE,화재사고
+누출,-4.0,NEG_OVERRIDE,유해물질
+유출,-4.0,NEG_OVERRIDE,유해물질
+붕괴,-5.0,NEG_OVERRIDE,구조물 사고
+파열,-4.0,NEG_OVERRIDE,설비 사고
+질식,-4.0,NEG_OVERRIDE,유해가스
+중독,-4.0,NEG_OVERRIDE,유해물질
+대피,-3.0,NEG_OVERRIDE,비상상황
+전면 중단,-4.0,NEG_OVERRIDE,운영 중단
+가동 전면 중단,-5.0,NEG_OVERRIDE,운영 중단
+생산 전면 중단,-5.0,NEG_OVERRIDE,운영 중단
+환경오염,-4.0,NEG_OVERRIDE,환경 리스크
+초과배출,-4.0,NEG_OVERRIDE,환경 리스크
+논란,-2.0,NEG,평판 리스크
+의혹,-2.0,NEG,평판 리스크
+갈등,-2.0,NEG,사회 리스크
+반대,-2.0,NEG,사회 리스크
+민원,-1.0,NEG,사회 리스크
+고발,-2.0,NEG,법무 리스크
+고소,-2.0,NEG,법무 리스크
+피소,-2.0,NEG,법무 리스크
+분쟁,-2.0,NEG,법무/노사
+불량,-2.0,NEG,품질
+리콜,-3.0,NEG,품질/안전
+회수,-2.0,NEG,품질/안전
+과징금,-3.0,NEG,행정 제재
+과태료,-2.0,NEG,행정 제재
+경고,-1.0,NEG,행정 제재
+경고장,-2.0,NEG,행정 제재
+불법,-2.0,NEG,법무
+위반,-2.0,NEG,법무/안전
+악취,-2.0,NEG,환경
+오염,-2.0,NEG,환경
+손실,-2.0,NEG,재무
+타격,-2.0,NEG,사업영향
+차질,-2.0,NEG,사업영향
+연기,-1.0,NEG,일정지연
+지연,-1.0,NEG,일정지연
+정지,-2.0,NEG,조업/행정
+영업정지,-3.0,NEG,행정 제재
+가동중단,-3.0,NEG,조업
+생산중단,-3.0,NEG,조업
+출하중단,-3.0,NEG,조업
+감산,-2.0,NEG,조업
+축소,-1.0,NEG,조업
+패소,-3.0,NEG,소송
+유죄,-3.0,NEG,사법
+혐의,-2.0,NEG,사법
+압수수색,-3.0,NEG,수사
+기소,-3.0,NEG,수사/사법
+구속,-3.0,NEG,사법
+징역,-3.0,NEG,사법
+벌금,-2.0,NEG,사법
+제재,-2.0,NEG,행정
+적발,-2.0,NEG,단속
+초과요금,-1.0,NEG,민원/요금
+부상,-2.0,NEG,안전사고
+부상자,-2.0,NEG,안전사고
+산재,-2.0,NEG,안전
+안전사고,-2.0,NEG,안전
+무혐의,2.0,MITIGATE,부정 중화
+불기소,2.0,MITIGATE,부정 중화
+무죄,2.0,MITIGATE,부정 중화
+기각,1.5,MITIGATE,부정 중화
+사실무근,1.5,MITIGATE,부정 중화
+해명,1.0,MITIGATE,부정 중화
+정정,1.0,MITIGATE,부정 중화
+정정보도,1.5,MITIGATE,부정 중화
+반박,1.0,MITIGATE,부정 중화
+무관,1.0,MITIGATE,부정 중화
+오보,1.5,MITIGATE,부정 중화
+착오,1.0,MITIGATE,부정 중화
+노조,0.0,NEUTRAL,노사 이슈 기본 중립
+노동조합,0.0,NEUTRAL,노사 이슈 기본 중립
+파업,0.0,NEUTRAL,노사 이슈 기본 중립
+총파업,0.0,NEUTRAL,노사 이슈 기본 중립
+파업 예고,0.0,NEUTRAL,노사 이슈 기본 중립
+임금협상,0.0,NEUTRAL,노사 이슈 기본 중립
+교섭,0.0,NEUTRAL,노사 이슈 기본 중립
+단협,0.0,NEUTRAL,노사 이슈 기본 중립
+중재,0.0,NEUTRAL,노사 이슈 기본 중립
+조정,0.0,NEUTRAL,노사 이슈 기본 중립
+설립,0.0,NEUTRAL,행정/조직 알림
+출범,0.0,NEUTRAL,행정/조직 알림
+발표,0.0,NEUTRAL,정보 알림
+안내,0.0,NEUTRAL,정보 알림
+공지,0.0,NEUTRAL,정보 알림
+브리핑,0.0,NEUTRAL,정보 알림
+설명회,0.0,NEUTRAL,정보 알림
+점검,0.0,NEUTRAL,정보 알림
+조사,0.0,NEUTRAL,정보 알림
+수상,1.5,POS_STRONG,성과/평판
+최우수,1.5,POS_STRONG,성과/평판
+대상,1.5,POS_STRONG,성과/평판
+인증,1.5,POS_STRONG,인증/표준
+선정,1.2,POS_STRONG,성과/평판
+1위,1.5,POS_STRONG,성과/지표
+흑자,1.5,POS_STRONG,재무
+영업이익,1.5,POS_STRONG,재무
+호실적,1.2,POS_STRONG,재무
+수주,1.5,POS_STRONG,사업
+달성,1.2,POS_STRONG,지표
+완공,1.2,POS_STRONG,프로젝트
+준공,1.2,POS_STRONG,프로젝트
+개소,1.2,POS_STRONG,프로젝트
+출시,1.2,POS_STRONG,신제품/서비스
+도입,1.0,POS_STRONG,신기술/설비
+혁신,1.2,POS_STRONG,신기술/개선
+신기술,1.2,POS_STRONG,신기술
+ESG,1.0,POS_STRONG,ESG
+탄소중립,1.2,POS_STRONG,ESG
+환경개선,1.2,POS_STRONG,환경개선
+개선,1.0,POS_STRONG,개선
+재가동,1.2,POS_STRONG,조업 정상화
+증설,1.0,POS_STRONG,투자
+증가,0.8,POS_STRONG,지표
+상승,0.8,POS_STRONG,지표
+신규 채용,1.2,POS_STRONG,고용
+고용 확대,1.2,POS_STRONG,고용
+투자,1.2,POS_STRONG,투자
+유치,1.0,POS_STRONG,투자 유치
+MOU,1.0,POS_STRONG,상생/협력
+협약,1.0,POS_STRONG,상생/협력
+상생,1.0,POS_STRONG,상생/협력
+기부,1.5,POS_STRONG,사회공헌
+후원,1.2,POS_STRONG,사회공헌
+장학금,1.2,POS_STRONG,사회공헌
+봉사,1.2,POS_STRONG,사회공헌
+나눔,1.2,POS_STRONG,사회공헌
+전달,1.0,POS_STRONG,사회공헌
+발대식,1.0,POS_STRONG,사회공헌/조직
+참여,0.5,POS_WEAK,행사/참여
+개최,0.5,POS_WEAK,행사/개최
+진행,0.3,POS_WEAK,행사/진행
+방문,0.3,POS_WEAK,행사/방문
+소개,0.3,POS_WEAK,소개/홍보
+행사,0.3,POS_WEAK,행사
+캠페인,0.8,POS_WEAK,사회공헌/캠페인
+콘서트,0.3,POS_WEAK,행사
+공모,0.3,POS_WEAK,공모/접수
+접수,0.3,POS_WEAK,공모/접수
